@@ -11,6 +11,8 @@
 		3046DFB727A89C9900FC4AAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046DFB627A89C9900FC4AAE /* ContentView.swift */; };
 		3046DFB927A89C9B00FC4AAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3046DFB827A89C9B00FC4AAE /* Assets.xcassets */; };
 		3046DFBC27A89C9B00FC4AAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3046DFBB27A89C9B00FC4AAE /* Preview Assets.xcassets */; };
+		3046DFC427A89D1B00FC4AAE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046DFC327A89D1B00FC4AAE /* Home.swift */; };
+		3046DFC627A89E7300FC4AAE /* CustomColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046DFC527A89E7300FC4AAE /* CustomColorPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3046DFB627A89C9900FC4AAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3046DFB827A89C9B00FC4AAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3046DFBB27A89C9B00FC4AAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3046DFC327A89D1B00FC4AAE /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		3046DFC527A89E7300FC4AAE /* CustomColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColorPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		3046DFB327A89C9900FC4AAE /* ImageColorPicker */ = {
 			isa = PBXGroup;
 			children = (
+				3046DFC227A89D1100FC4AAE /* View */,
 				3046DFB427A89C9900FC4AAE /* ImageColorPickerApp.swift */,
 				3046DFB627A89C9900FC4AAE /* ContentView.swift */,
 				3046DFB827A89C9B00FC4AAE /* Assets.xcassets */,
@@ -65,6 +70,15 @@
 				3046DFBB27A89C9B00FC4AAE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3046DFC227A89D1100FC4AAE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3046DFC327A89D1B00FC4AAE /* Home.swift */,
+				3046DFC527A89E7300FC4AAE /* CustomColorPicker.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3046DFB727A89C9900FC4AAE /* ContentView.swift in Sources */,
+				3046DFC427A89D1B00FC4AAE /* Home.swift in Sources */,
+				3046DFC627A89E7300FC4AAE /* CustomColorPicker.swift in Sources */,
 				3046DFB527A89C9900FC4AAE /* ImageColorPickerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
